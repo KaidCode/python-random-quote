@@ -5,7 +5,9 @@ def CoolCade():
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
-  last = 13
+  last = 16
+  rnd = rnd = random.randint(0, last)
+  print(quotes[rnd])
   rnd = rnd = random.randint(0, last)
   print(quotes[rnd])
 
